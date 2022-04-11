@@ -29,6 +29,10 @@ body{
     align-items: center;
 }
 
+.links ul{
+    padding: 0;
+}
+
 .links li, a{
     text-decoration: none;
     list-style: none;
