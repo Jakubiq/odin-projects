@@ -21,7 +21,9 @@ body{
     /* background-color: var(--darkBackground); */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .logo h1{
@@ -46,14 +48,16 @@ ul{
 
 .headerText{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .left{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
 }
 
 .left h2{
@@ -82,5 +86,5 @@ ul{
     background-color: rgb(114, 114, 114) ;
     color: #e5e7eb;
     font-size: 18px;
-    padding: 3rem;
+    padding: 7rem;
 }
