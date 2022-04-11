@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 :root{
     --darkBackground: #1f2937;
-    --headerLogo:#e5e7eb;  
+    /* --headerLogo:#e5e7eb;   */
 }
 
 body{
@@ -15,6 +15,7 @@ body{
 
 .mainHeader{
     background-color: var(--darkBackground);
+    padding-bottom: 4rem;
 }
 
 .headerNav{
@@ -22,8 +23,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
 }
 
 .logo h1{
@@ -50,8 +51,8 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
 }
 
 .left{
@@ -64,6 +65,8 @@ ul{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0;
+    margin-top: 5rem;
 }
 
 .left p{
@@ -74,17 +77,56 @@ ul{
 .left a{
     text-decoration: none;
     font-size: 18px;
+    text-align: center;
     color: #e5e7eb;
     background-color: #3882f6;
     padding: .5rem 1rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
     margin-bottom: 4rem;
-    width: 4rem;
+    width: 6rem;
 }
 
 .right{
     background-color: rgb(114, 114, 114) ;
     color: #e5e7eb;
     font-size: 18px;
-    padding: 7rem;
+    width: 45%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+.information .textInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textInfo{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.squares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.squares .placeholder{
+    width: 200px;
+    height: 200px;
+    border: solid .2rem #3882f6;
+    border-radius: 1rem;
+}
+
+.squares p{
+    width: 200px;
+    height: 200px;
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 200;
+    text-align: center;
 }
