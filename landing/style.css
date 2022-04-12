@@ -23,8 +23,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 13rem;
-    margin-right: 13rem;
+    margin-left: 16%;
+    margin-right: 16%
 }
 
 .logo h1{
@@ -51,8 +51,8 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 13rem;
-    margin-right: 13rem;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .left{
