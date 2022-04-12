@@ -113,6 +113,7 @@ ul{
     justify-content: center;
     align-items: center;
     gap: 3.5rem;
+    flex-wrap: wrap;
 }
 
 .squares .placeholder{
@@ -129,4 +130,74 @@ ul{
     color: #1f2937;
     font-weight: 200;
     text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.quoteText{
+    padding-top: 4rem;
+    text-align: center;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.quoteAuthor{
+    color: #1f2937;
+    font-weight: bolder;
+    padding-bottom: 4rem;
+    font-style: bold;
+    font-size: 34px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 17%;
+}
+
+.signupPossiton{
+    display: flex;  
+    justify-content: center;
+}
+
+.signup{
+    padding: 3rem 0;
+    margin: 5rem;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 78%;
+    border-radius: .5rem;
+}
+
+.signText{
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.signupTitle p, 
+.signUnderText p{
+    margin: 0;
+}
+
+.signupButton a{
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    background-color: #3882f6 ;
+    border: .2rem #e5e7eb solid;
+}
+
+
+.footer{
+    background-color: var(--darkBackground);
+    text-align: center;
+    color: #e5e7eb;
+    padding: .5rem;
+    height: 3rem;
 }
