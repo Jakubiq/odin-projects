@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.gameField{
+    display: flex;
+    flex-direction: column;    
+}
+
+.gameField, img{
+    width: 17rem;
+}
+
+.comp{
+    display: flex;
+    
+}
+
+.player{
+    display: flex;
+}
