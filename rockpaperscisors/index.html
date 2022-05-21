@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/71a1d8985d.js" crossorigin="anonymous"></script>
     <script src="script.js"></script> 
     <link rel="stylesheet" href="styles.css">
     <title>Rock, paper, scissors</title>
@@ -12,19 +14,13 @@
        <h1>Kámen, nůžky, papír</h1>
    </div> 
 
+   <p>Vyber</p>
    <div class="gameField">
-       <div class="imiges">
-        <div class="comp">
-            <img src="/img/kamen.png" alt="kamen">
-            <img src="/img/nuzky.png" alt="kamen">
-            <img src="/img/papir.png" alt="kamen">
-           </div>
-           <div class="player">
-            <img src="/img/kamen.png" alt="kamen">
-            <img src="/img/nuzky.png" alt="kamen">
-            <img src="/img/papir.png" alt="kamen">
-           </div>
-       </div>
+        <div class="player">
+            <i id="rock" onclick="choice()" class="fa-solid fa-hand-back-fist"></i>
+            <i id="scissors" onclick="choice()" class="fa-solid fa-hand-scissors"></i>
+            <i id="paper" onclick="choice()" class="fa-solid fa-hand"></i>
+        </div>
    </div>
 </body>
 </html>

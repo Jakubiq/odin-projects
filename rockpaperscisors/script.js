@@ -1,1 +1,3 @@
-console.log("Ahoj kakomane");
+function choice() {
+    console.log("ahoj")
+  }
