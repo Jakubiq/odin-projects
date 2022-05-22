@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- font awesome  -->
     <script src="https://kit.fontawesome.com/71a1d8985d.js" crossorigin="anonymous"></script>
+    <!-- scripts -->
     <script src="script.js"></script> 
+    <!-- styles -->
     <link rel="stylesheet" href="styles.css">
     <title>Rock, paper, scissors</title>
 </head>
 <body>
    <div class="header">
-       <h1>Kámen, nůžky, papír</h1>
+       <h1>Kámen, nůžky, papír!</h1>
    </div> 
 
-   <p>Vyber</p>
+   <p id="results" style="display: none;">kako</p>
+
    <div class="gameField">
         <div class="player">
-            <i id="rock" onclick="choice()" class="fa-solid fa-hand-back-fist"></i>
-            <i id="scissors" onclick="choice()" class="fa-solid fa-hand-scissors"></i>
-            <i id="paper" onclick="choice()" class="fa-solid fa-hand"></i>
+            <i id="rock" onclick="play('rock')" class="fa-solid fa-hand-back-fist"></i>
+            <i id="scissors" onclick="play('scissors')" class="fa-solid fa-hand-scissors"></i>
+            <i id="paper" onclick="play('paper')" class="fa-solid fa-hand"></i>
         </div>
+   </div>
+   <div class="score">
+        <p id="yourScore">You: 0</p>
+        <p id="compScore" >Computer: 0</p>
    </div>
 </body>
 </html>

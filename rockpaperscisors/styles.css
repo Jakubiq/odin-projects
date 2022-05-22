@@ -1,12 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600&display=swap');
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Epilogue', sans-serif;
+    background: linear-gradient(#95c1fc ,#c6aafa);
+    user-select: none;
 }
 
 .header{
     text-align: center;
     font-size: 3rem;
+    margin: 4rem;
+}
 
+#results{
+    justify-content: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
 }
 
 .gameField{
@@ -19,14 +31,25 @@ body{
 
 .gameField, i{
     font-size: 12rem;
-    margin: 2rem;
+    margin: 2rem 5rem;
 }
 
 i{
     cursor: pointer;
+}
 
+i:hover{
+    transition: 500ms;
+    color: #202020;
 }
 
 .player{
     display: flex;
+}
+
+
+.score{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
 }
