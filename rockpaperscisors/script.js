@@ -40,7 +40,7 @@ function play(choose) {
 
 
   console.log(result);
-  document.getElementById('results').style.display = 'block';
+  document.getElementById('results').style.opacity = 1;
   document.getElementById('results').textContent = result;
   
 
