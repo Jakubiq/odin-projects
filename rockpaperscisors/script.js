@@ -12,29 +12,44 @@ function play(choose) {
 
   if(choose == compChoice){
     result = "Draw!";
+    if (compChoice == "rock"){
+      document.getElementById("compChoice").className = "fa-solid fa-hand-back-fist";
+    }
+    if (compChoice == "paper"){
+      document.getElementById("compChoice").className = "fa-solid fa-hand";
+    }
+    if (compChoice == "scissors"){
+      document.getElementById("compChoice").className = "fa-solid fa-hand-scissors";
+    }
   }
   if(choose == "rock" && compChoice == "scissors"){
     yourScore++;
+    document.getElementById("compChoice").className = "fa-solid fa-hand-scissors";
     result = "You win!";
   }
   if(choose == "rock" && compChoice == "paper"){
     compScore++;
+    document.getElementById("compChoice").className = "fa-solid fa-hand";
     result = "You lose :(";
   }
   if(choose == "scissors" && compChoice == "rock"){
     compScore++;
+    document.getElementById("compChoice").className = "fa-solid fa-hand-back-fist";
     result = "You lose :(";
   } 
   if(choose == "scissors" && compChoice == "paper"){
     yourScore++;
+    document.getElementById("compChoice").className = "fa-solid fa-hand";
     result = "You win!";
   }
   if(choose == "paper" && compChoice == "scissors"){
     compScore++;
+    document.getElementById("compChoice").className = "fa-solid fa-hand-scissors";
     result = "You lose :(";
   }
   if(choose == "paper" && compChoice == "rock"){
     yourScore++;
+    document.getElementById("compChoice").className = "fa-solid fa-hand-back-fist";
     result = "You win!";
   }
 

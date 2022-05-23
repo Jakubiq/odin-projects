@@ -15,6 +15,7 @@ body{
 }
 
 #results{
+    display: flex;
     justify-content: center;
     font-size: 3rem;
     text-align: center;
@@ -29,27 +30,47 @@ body{
     
 }
 
-.gameField, i{
+.gameField .player  i{
     font-size: 9rem;
     margin: 2rem;
 }
 
-i{
+.gameField .player i{
     cursor: pointer;
 }
 
-i:hover{
-    transition: 500ms;
-    color: #202020;
+.player i:hover{
+    transition: 300ms;
+    color: #858484;
+    font-size: 10rem;
 }
 
 .player{
     display: flex;
 }
 
+.comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comp p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.comp i {
+    font-size: 7rem;
+}
 
 .score{
+    position: fixed;
+    left: 0;
+    right: 0; 
     text-align: center;
+    bottom: 5rem;
     font-size: 2rem;
     font-weight: 600;
 }

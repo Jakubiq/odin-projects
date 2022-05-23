@@ -13,19 +13,24 @@
 </head>
 <body>
    <div class="header">
-       <h1>Kámen, nůžky, papír!</h1>
+       <h1>Rock, paper, scissors!</h1>
    </div> 
 
-   <p id="results" style="opacity: 0;">kako</p>
-
-   <div class="gameField">
+    <p id="results" style="opacity: 0;">kako</p>
+    
+    
+    <div class="gameField">
+        <div class="comp">
+            <p>Computer choice:</p>
+            <i id="compChoice" class="fa-solid fa-hand-back-fist"></i>
+        </div>
         <div class="player">
             <i id="rock" onclick="play('rock')" class="fa-solid fa-hand-back-fist"></i>
             <i id="scissors" onclick="play('scissors')" class="fa-solid fa-hand-scissors"></i>
             <i id="paper" onclick="play('paper')" class="fa-solid fa-hand"></i>
         </div>
-   </div>
-   <div class="score">
+    </div>
+    <div class="score">
         <p id="yourScore">You: 0</p>
         <p id="compScore" >Computer: 0</p>
    </div>
