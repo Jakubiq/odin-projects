@@ -105,3 +105,34 @@ body{
         font-size: 1.6rem;
     }
 }
+
+@media only screen and (min-height: 550px){
+    .header{
+        font-size: 1rem;
+        margin: .2rem;
+    }
+
+    #results{
+        font-size: 1.4rem;
+        margin: .7rem;
+    }
+
+    .comp p {
+        font-size: 1.4rem;
+    }
+
+    .comp i{
+        font-size: 4rem;
+        margin: 1rem;
+    }
+
+    .gameField .player  i{
+        font-size: 4rem;
+        margin: 1rem;
+    }
+
+    .score{
+        bottom: 2%;
+        font-size: 1.5rem;
+    }
+}
