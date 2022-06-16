@@ -1,7 +1,7 @@
 let yourScore = 0;
 let compScore = 0;
 
-function play(choose) {
+function play(choose, restart) {
   var choices = ["rock", "paper", "scissors"];
   var rnd = Math.floor(Math.random()*3);
 
@@ -9,6 +9,10 @@ function play(choose) {
   let result;
 
   
+  if(restart){
+    yourScore = 0;
+    compScore = 0;
+  }
 
   if(choose == compChoice){
     result = "Draw!";

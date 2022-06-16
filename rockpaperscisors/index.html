@@ -15,6 +15,9 @@
    <div class="header">
        <h1>Rock, paper, scissors!</h1>
    </div> 
+   <div class="restart">
+        <p id="restart" onclick="play('', true)" >Restart</p>
+   </div>
 
     <p id="results" style="opacity: 0;">kako</p>
     
@@ -25,9 +28,9 @@
             <i id="compChoice" class="fa-solid fa-question"></i>
         </div>
         <div class="player">
-            <i id="rock" onclick="play('rock')" class="fa-solid fa-hand-back-fist"></i>
-            <i id="scissors" onclick="play('scissors')" class="fa-solid fa-hand-scissors"></i>
-            <i id="paper" onclick="play('paper')" class="fa-solid fa-hand"></i>
+            <i id="rock" onclick="play('rock', false)" class="fa-solid fa-hand-back-fist"></i>
+            <i id="scissors" onclick="play('scissors', false)" class="fa-solid fa-hand-scissors"></i>
+            <i id="paper" onclick="play('paper', false)" class="fa-solid fa-hand"></i>
         </div>
     </div>
     <div class="score">
