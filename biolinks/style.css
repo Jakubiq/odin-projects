@@ -38,7 +38,7 @@ img{
 h1{
     font-size: 3rem;
     font-weight: 600;
-	padding: 5% 0;
+	padding: 1% 0;
 }
 
 ul{
@@ -55,7 +55,7 @@ ul{
 li{
     cursor: pointer;
     margin: 3%;  
-    padding: 4% 0;
+    padding: 2% 0;
     border: 2px #ff5681 solid;
     border-radius: 2rem;
     background-color:  rgba(0, 0, 0, 0.4);
