@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    cursor: pointer;
+
+}
+
+.colorGen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30%;
+}
+
+.colorGen div{
+    border: 1px black solid;
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem;
+}
